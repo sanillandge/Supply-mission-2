@@ -79,7 +79,14 @@ function keyPressed() {
  if (keyCode == DOWN_ARROW){
 console.log("down")
 Matter.Body.setStatic(packageBody,false);
-    
+	 
+if(keyCode === LEFT_ARROW){
+helicopterSprite.X=helicopterSprite.x-20;
+}
+
+if(keyCode === RIGHT_ARROW){
+	helicopterSprite.x=helicopterSprite.x=20;
+}    
  }
   }
 
