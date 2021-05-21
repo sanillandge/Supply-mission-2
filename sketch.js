@@ -81,11 +81,11 @@ console.log("down")
 Matter.Body.setStatic(packageBody,false);
  }
 if(keyCode === LEFT_ARROW){
-helicopterSprite.x=helicopterSprite.x=-20;
+helicopterSprite.x-=20;
 }
 
 if(keyCode === RIGHT_ARROW){
-helicopterSprite.x=helicopterSprite.x=+20;   
+helicopterSprite.x+=20;   
  }
   }
 
