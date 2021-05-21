@@ -70,7 +70,7 @@ function draw() {
 Engine.update(engine);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
-keyPressed();
+
 drawSprites();
  
 }
